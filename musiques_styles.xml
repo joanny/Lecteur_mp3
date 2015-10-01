@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<types>
+  <Item>
+    <titre>divers</titre>
+    <valeur>0</valeur>
+  </Item>
+  <Item>
+    <titre>jazz</titre>
+    <valeur>8</valeur>
+  </Item>
+  <Item>
+    <titre>métal</titre>
+    <valeur>9</valeur>
+  </Item>
+  <Item>
+    <titre>pop-rock</titre>
+    <valeur>13</valeur>
+  </Item>
+  <Item>
+    <titre>rap</titre>
+    <valeur>15</valeur>
+  </Item>
+  <Item>
+    <titre>techno</titre>
+    <valeur>18</valeur>
+  </Item>
+  <Item>
+    <titre>classique</titre>
+    <valeur>32</valeur>
+  </Item>
+</types>

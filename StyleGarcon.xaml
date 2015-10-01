@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="TplArrierePlan">
+        <Setter Property="Control.Background" Value="CornflowerBlue"/>
+    </Style>
+
+    <Style BasedOn="{StaticResource TplArrierePlan}"
+   TargetType="Button"
+   x:Key="TplBouton">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="FontSize" Value="13"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="Width" Value="70"/>
+        <Setter Property="Height" Value="70"/>
+    </Style>
+    <Style BasedOn="{StaticResource TplArrierePlan}"
+   TargetType="Label"
+   x:Key="TplLabel">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="Width" Value="300"/>
+        <Setter Property="Height" Value="32"/>
+    </Style>
+    <Style BasedOn="{StaticResource TplArrierePlan}"
+   TargetType="Slider"
+   x:Key="TplSlider">
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="32"/>
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+
+    </Style>
+
+    <Style BasedOn="{StaticResource TplArrierePlan}"
+   TargetType="ComboBox"
+   x:Key="TplCbx">
+
+    </Style>
+</ResourceDictionary>
